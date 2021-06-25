@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display:flex;
+    flex-direction: column;
+    height: 900px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+   
+}
+
+.container_sup{
+    display: flex;
+    flex: 2;
+    background-color: rgb(135, 172, 168);
+    
+}
+.container_inf{
+    background-color: tomato;
+    flex: 1;
+}
+section{
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.foto_section{
+    background-image: url("imagem/imagem4.png");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+p{
+    margin: 3px;
+}
+h1{
+    text-decoration:underline;
+    font-weight: bold;
+    color:rgb(74, 74, 131)
+}
+form{
+    
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(106, 133, 98);
+    color:rgb(235, 222, 222);
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+input,label,select,button{
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.bloco_chekbox{
+    display: flex;
+    margin: 0px;
+}
+
+[type="checkbox"]{
+    width: 20px;
+}
+button{
+    background-color: orangered;
+    height: 30px;
+    width: 208px;
+    color: rgb(252, 245, 245);
+}
+h5{
+    font-size: 7px;
+    color: rgb(82, 74, 74);
+    text-align: center  ;
+    width: 250px;
+}
+.container_inf{
+    display: flex;
+    background-color: rgb(106, 133, 98);
+
+}
+.bloco{
+    
+    height: 300px;
+    margin: 20px;
+    flex: 1;
+}
+.imagem_bloco_branco{
+    background-image: url("imagem/foto_1.png");
+    
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.imagem_bloco_amarelo{
+    background-image: url("imagem/foto_2.png");
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.imagem_bloco_marron{
+    background-image: url("imagem/foto_3.png");
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+.cabecalho_bloco{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.texto_bloco{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+@media(max-width:1250px){
+    .container_sup{
+        display: flex;
+        flex: 2;
+        background-color: rgb(135, 172, 168);
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
